@@ -1,0 +1,41 @@
+{
+  "name": "filebridge",
+  "version": "0.1.0",
+  "description": "A lightweight JavaScript library for bridging browser localStorage and portable data files. Define your own file header format, validate imports, and move user data between devices without a backend.",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "localStorage",
+    "file",
+    "import",
+    "export",
+    "offline",
+    "local-first",
+    "portable",
+    "browser",
+    "storage",
+    "filebridge"
+  ],
+  "author": "Patrick McMahon",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Patrick-W-McMahon/filebridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Patrick-W-McMahon/filebridge/issues"
+  },
+  "homepage": "https://github.com/Patrick-W-McMahon/filebridge#readme",
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
